@@ -111,7 +111,6 @@ hr{
   width:200px;
   height:auto;
   object-fit:cover;
-  filter: contrast(120%);
   box-shadow: 20px 15px 20px 0 rgba(0,0,0,.7);
   transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
   margin-top: 20px
@@ -119,6 +118,7 @@ hr{
 /* Box shadow retrieval*/
 .photo:hover img{
   box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
+  filter: contrast(120%);
 }
 
 .photo .glow-wrap{
